@@ -1,6 +1,6 @@
-# u4-Gateway-Service
+# Kafka-TCP-Service
 
-The **u4-Gateway-Service** is a scalable, high-performance TCP server designed to handle incoming connections from IoT devices, process their messages using Kafka, and return responses efficiently using a worker-pool pattern.
+The **Kafka-TCP-Service** is a scalable, high-performance TCP server designed to handle incoming connections from IoT devices, process their messages using Kafka, and return responses efficiently using a worker-pool pattern.
 
 ---
 
@@ -20,7 +20,7 @@ The **u4-Gateway-Service** is a scalable, high-performance TCP server designed t
 
 ## Introduction
 
-The **u4-Gateway-Service** is built to handle multiple TCP connections from IoT devices. It integrates with Kafka for asynchronous message processing and uses a worker-pool pattern to maximize the efficient use of resources. The system ensures reliable communication between IoT devices and backend services through Kafka topics.
+The **Kafka-TCP-Service** is built to handle multiple TCP connections from IoT devices. It integrates with Kafka for asynchronous message processing and uses a worker-pool pattern to maximize the efficient use of resources. The system ensures reliable communication between IoT devices and backend services through Kafka topics.
 
 ### Key Features:
 
